@@ -1,0 +1,44 @@
+#problem 01
+#Take two inputs from the user. One will be an integer. The other will be a float number. Then multiply them to display the output.
+#Solution:
+num1 = int(input("Enter Integer number: "))
+num2 = float(input("Enter float number: "))
+print("The result is: ",num1*num2)
+
+#problem 02
+#Take two numbers from the users. Calculate the result of second number power of the first number.
+#Solution:
+num1 = int(input("Enter first number as base: "))
+num2 = int(input("Enter second number as power: "))
+print("The result is:", num1**num2)
+
+#problem 03
+#Create a random number between 0 to 10
+#Solution:
+import random
+
+random_num = random.randint(0,10)
+print(random_num)
+
+#problem 04
+#Find the floor division of two numbers.
+#Solution:
+import math
+num01 = int(input("Enter first number: "))
+num02 = int(input("Enter second number: "))
+print(math.floor(num01/num02))
+
+#problem 05
+#Swap two variables.
+#Note: To swap two variables: the value of the first variable will become the value of the second variable. On the other hand, the value of the second variable will become the value of the first variable.
+#Solution:
+num01 = int(input("Enter first number: "))
+num02 = int(input("Enter second number: "))
+
+print("As input: ",num01, num02)
+
+temp = num01
+num01 = num02
+num02 = temp
+
+print("After swap: ",num01, num02)
